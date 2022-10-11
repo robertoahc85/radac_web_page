@@ -371,12 +371,12 @@ p {
 
 .primary-btn.primary-btn-7 {
   background-image: none;
-  background-color: #0fd8d0;
+  background-color: #2973b5;
 }
 
 .primary-btn.primary-btn-7::after {
   background-image: none;
-  background-color: #0fd8d0;
+  background-color: #2973b5;
 }
 
 .primary-btn.primary-btn-7:hover {
@@ -416,13 +416,13 @@ p {
 }
 
 .secondary-btn.secondary-btn-3 {
-  color: #0fd8d0;
+  color: #2973b5;
   background-color: #e3fffe;
 }
 
 .secondary-btn.secondary-btn-3:hover {
   color: #ffffff;
-  background-color: #0fd8d0;
+  background-color: #2973b5;
 }
 
 /* Form CSS */
@@ -904,7 +904,7 @@ p {
 }
 
 .header-area.header-7 .main-navbar-area .main-nav .navbar .navbar-nav .nav-item a.active, .header-area.header-7 .main-navbar-area .main-nav .navbar .navbar-nav .nav-item a:hover {
-  color: #0fd8d0;
+  color: #2973b5;
 }
 
 .header-area.header-7 .main-navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu .nav-item a {
@@ -912,26 +912,26 @@ p {
 }
 
 .header-area.header-7 .main-navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu .nav-item a:hover {
-  color: #0fd8d0;
+  color: #2973b5;
 }
 
 .header-area.header-7 .main-navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu .nav-item a.active {
-  color: #0fd8d0;
+  color: #2973b5;
 }
 
 .header-area.header-7 .main-navbar-area .secondary-btn {
-  border: 2px solid #0fd8d0;
+  border: 2px solid #2973b5;
 }
 
 .header-area.header-7 .main-navbar-area.is-sticky .secondary-btn {
   color: #ffffff;
   background-image: none;
-  background-color: #0fd8d0;
+  background-color: #2973b5;
 }
 
 .header-area.header-7 .main-navbar-area.is-sticky .secondary-btn:hover {
   background-image: none;
-  background-color: #0fd8d0;
+  background-color: #2973b5;
 }
 
 .header-area.header-8 .main-navbar-area {
@@ -1637,8 +1637,8 @@ p {
 }
 
 .integration-area.integration-3 .item-single .icon {
-  border-color: #0fd8d0;
-  color: #0fd8d0;
+  border-color: #2973b5;
+  color: #2973b5;
 }
 
 .integration-area.integration-4 .section-title {
@@ -2062,7 +2062,7 @@ p {
 }
 
 .about-area.about-2 .item-single .icon {
-  background-color: #0fd8d0;
+  background-color: #2973b5;
 }
 
 .about-area.about-3 .section-title {
@@ -2901,7 +2901,7 @@ p {
   z-index: 1;
   padding: 50px 20px;
   border-radius: 0 0 10px 10px;
-  background-color: #0fd8d0;
+  background-color: #2973b5;
 }
 
 .pricing-plan-area.pricing-plan-2 .item-single .top-content .bg-shape {
@@ -2948,24 +2948,24 @@ p {
 }
 
 .pricing-plan-area.pricing-plan-2 .item-single .content .price {
-  color: #0fd8d0;
+  color: #2973b5;
   font-size: 44px;
   margin: 20px 0;
 }
 
 .pricing-plan-area.pricing-plan-2 .item-single .content .primary-btn {
-  color: #0fd8d0;
+  color: #2973b5;
   background-color: #e3fffe;
   border: none;
 }
 
 .pricing-plan-area.pricing-plan-2 .item-single:hover .primary-btn {
   color: #ffffff;
-  background-color: #0fd8d0;
+  background-color: #2973b5;
 }
 
 .pricing-plan-area.pricing-plan-2 .section-bottom a {
-  color: #0fd8d0;
+  color: #2973b5;
 }
 
 .pricing-plan-area.pricing-plan-2 .tab-switch .text {
@@ -2991,7 +2991,7 @@ p {
   bottom: 0;
   border-radius: 30px;
   background-color: #e3fffe;
-  border: 1.5px solid #0fd8d0;
+  border: 1.5px solid #2973b5;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -3004,7 +3004,7 @@ p {
   left: 2px;
   bottom: 2px;
   border-radius: 50%;
-  background-color: #0fd8d0;
+  background-color: #2973b5;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -3016,7 +3016,7 @@ p {
 }
 
 .pricing-plan-area.pricing-plan-2 .switch-toggle input:checked + .toggle-slider {
-  background-color: #0fd8d0;
+  background-color: #2973b5;
 }
 
 .pricing-plan-area.pricing-plan-2 .switch-toggle input:checked + .toggle-slider::before {
@@ -3821,11 +3821,11 @@ p {
 }
 
 .faq-area.faq-4 .accordion-item .accordion-header .accordion-button:not(.collapsed) {
-  color: #0fd8d0;
+  color: #2973b5;
 }
 
 .faq-area.faq-4 .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
-  color: #0fd8d0;
+  color: #2973b5;
 }
 
 /* -----------------------------------------
@@ -4651,7 +4651,7 @@ p {
 }
 
 .newsletter-area.newsletter-bg {
-  background: #0fd8d0;
+  background: #2973b5;
   background-image: radial-gradient(#0ec8c2 20%, transparent 20%), radial-gradient(#0ec8c2 20%, transparent 20%);
   background-position: 0 0, 5px 5px;
   background-size: 10px 10px;
@@ -5221,7 +5221,7 @@ Lazyload CSS
     opacity: 0;
   }
 }
-@keyframes loader {
+@keyframes  {
   0% {
     opacity: 1;
   }
