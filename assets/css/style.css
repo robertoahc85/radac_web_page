@@ -5221,7 +5221,7 @@ Lazyload CSS
     opacity: 0;
   }
 }
-@keyframes loader {
+@keyframes  {
   0% {
     opacity: 1;
   }
