@@ -311,10 +311,10 @@ p {
 	}
 	&.primary-btn-7{
 		background-image: none;
-		background-color: #0fd8d0;
+		background-color: #2973b5;
 		&::after{
 			background-image: none;
-			background-color: #0fd8d0;
+			background-color: #2973b5;
 		}
 		&:hover{
 			color: #ffffff;
@@ -346,11 +346,11 @@ p {
 		}
 	}
 	&.secondary-btn-3{
-		color: #0fd8d0;
+		color: #2973b5;
 		background-color: #e3fffe;
 		&:hover{
 			color: #ffffff;
-			background-color: #0fd8d0;
+			background-color: #2973b5;
 		}
 	}
 }
@@ -861,7 +861,7 @@ p {
 								color: #132150;
 								&.active,
 								&:hover {
-									color: #0fd8d0;
+									color: #2973b5;
 								}
 							}
 							.dropdown-menu {
@@ -869,11 +869,11 @@ p {
 									a {
 										color: #000000;
 										&:hover {
-											color: #0fd8d0;
+											color: #2973b5;
 										}
 									}
 									a.active{
-										color: #0fd8d0;
+										color: #2973b5;
 									}
 								}
 							}
@@ -882,16 +882,16 @@ p {
 				}
 			}
 			.secondary-btn{
-				border: 2px solid #0fd8d0;
+				border: 2px solid #2973b5;
 			}
 			&.is-sticky{
 				.secondary-btn{
 					color: #ffffff;
 					background-image: none;
-					background-color: #0fd8d0;
+					background-color: #2973b5;
 					&:hover{
 						background-image: none;
-						background-color: #0fd8d0;
+						background-color: #2973b5;
 					}
 				}
 			}
@@ -1521,8 +1521,8 @@ p {
 		}
 		.item-single{
 			.icon{
-				border-color: #0fd8d0;
-				color: #0fd8d0;
+				border-color: #2973b5;
+				color: #2973b5;
 			}
 		}
 	}
@@ -1848,7 +1848,7 @@ p {
 		}
 		.item-single{
 			.icon{
-				background-color: #0fd8d0;
+				background-color: #2973b5;
 			}
 		}
 	}
@@ -2545,7 +2545,7 @@ p {
 				z-index: 1;
 				padding: 50px 20px;
 				border-radius: 0 0 10px 10px;
-				background-color: #0fd8d0;
+				background-color: #2973b5;
 				.bg-shape{
 					position: absolute;
 					top: 0;
@@ -2585,12 +2585,12 @@ p {
 			.content{
 				padding: 40px 30px;
 				.price{
-					color: #0fd8d0;
+					color: #2973b5;
 					font-size: 44px;
 					margin: 20px 0;
 				}
 				.primary-btn{
-					color: #0fd8d0;
+					color: #2973b5;
 					background-color: #e3fffe;
 					border: none;
 				}
@@ -2598,13 +2598,13 @@ p {
 			&:hover{
 				.primary-btn{
 					color: #ffffff;
-					background-color: #0fd8d0;
+					background-color: #2973b5;
 				}
 			}
 		}
 		.section-bottom{
 			a{
-				color: #0fd8d0;
+				color: #2973b5;
 			}
 		}
 
@@ -2630,7 +2630,7 @@ p {
 				bottom: 0;
 				border-radius: 30px;
 				background-color: #e3fffe;
-				border: 1.5px solid #0fd8d0;
+				border: 1.5px solid #2973b5;
 				transition: .4s;
 				&::before{
 					position: absolute;
@@ -2640,7 +2640,7 @@ p {
 					left: 2px;
 					bottom: 2px;
 					border-radius: 50%;
-					background-color: #0fd8d0;
+					background-color: #2973b5;
 					transition: .4s;
 				}
 			}
@@ -2650,7 +2650,7 @@ p {
 				height: 0;
 				&:checked{
 					+ .toggle-slider{
-						background-color: #0fd8d0;
+						background-color: #2973b5;
 						&::before{
 							transform: translateX(40px);
 							background-color: #ffffff;
@@ -3336,9 +3336,9 @@ p {
 			.accordion-header {
 				.accordion-button{
 					&:not(.collapsed){
-						color: #0fd8d0;
+						color: #2973b5;
 						&::after{
-							color: #0fd8d0;
+							color: #2973b5;
 						}
 					}
 				}
@@ -4012,7 +4012,7 @@ p {
 		padding-bottom: 20px;
 	}
 	&.newsletter-bg{
-		background: #0fd8d0;
+		background: #2973b5;
 		background-image: radial-gradient(#0ec8c2 20%, transparent 20%), radial-gradient( #0ec8c2 20%, transparent 20%);
 		background-position: 0 0, 5px 5px;
 		background-size: 10px 10px;
