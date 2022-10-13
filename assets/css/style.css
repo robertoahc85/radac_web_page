@@ -4651,8 +4651,7 @@ p {
 }
 
 .newsletter-area.newsletter-bg {
-  background: #2973b5;
-  background-image: radial-gradient(#0ec8c2 20%, transparent 20%), radial-gradient(#0ec8c2 20%, transparent 20%);
+  background: #a8a9aa;
   background-position: 0 0, 5px 5px;
   background-size: 10px 10px;
 }
