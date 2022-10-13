@@ -371,7 +371,7 @@ p {
 
 .primary-btn.primary-btn-7 {
   background-image: none;
-  background-color: #2973b5;
+  background-color: #a0a1a3;
 }
 
 .primary-btn.primary-btn-7::after {
@@ -578,7 +578,7 @@ p {
   padding: 8px 0;
   position: absolute;
   visibility: hidden;
-  background: #ffffff;
+  background: #2973b5;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   -webkit-box-shadow: 0px 0px 15px 0px rgba(19, 33, 80, 0.1);
@@ -746,7 +746,7 @@ p {
 .header-area .main-navbar-area.is-sticky {
   position: fixed;
   z-index: 99;
-  background: rgba(255, 255, 255, 0.9);
+  background: #2973b5;
   -webkit-backdrop-filter: saturate(180%) blur(20px);
           backdrop-filter: saturate(180%) blur(20px);
   -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
@@ -1326,7 +1326,7 @@ p {
 
 .home-banner-area.banner-7 {
   background: none;
-  background-color: #ffffff;
+  background-color: #2973b5;
 }
 
 .home-banner-area.banner-7 .banner-content .title {
@@ -5470,3 +5470,4 @@ Lazyload CSS
   }
 }
 /*# sourceMappingURL=style.css.map */
+
