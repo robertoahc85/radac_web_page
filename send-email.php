@@ -1,34 +1,16 @@
 <?php
-
+//get data from form  
 $name = $_POST['name'];
-$email = $_POST['email'];
-$message = $_POST['message'];
-
-require "vendor/autoload.php";
-
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
-
-$mail->SMTPDebug = SMTP::DEBUG_SERVER;
-
-$mail->isSMTP();
-$mail->SMTPAuth = true;
-
-$mail->Host = "smtp.titan.email";
-$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-$mail->Port = 587;
-
-$mail->Username = "contacto@radac.com.mx";
-$mail->Password = "$Radac2022$";
-
-$mail->setFrom($email, $name);
-$mail->addAddress("roberto@example.com", "Dave");
-
-$mail->Subject = "Contacto pagina web";
-$mail->Body = $message;
-
-$mail->send();
-
-header("Location: sent.html");
-
+$email= $_POST['email'];
+$message= $_POST['message'];
+$to = "youremail@mail.com";
+$subject = "Mail From website";
+$txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n Message =" . $message;
+$headers = "From: noreply@yoursite.com" . "\r\n" .
+"CC: somebodyelse@example.com";
+if($email!=NULL){
+    mail($to,$subject,$txt,$headers);
+}
+//redirect
+header("Location:thankyou.html");
 ?>
