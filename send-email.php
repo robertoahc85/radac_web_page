@@ -9,6 +9,8 @@ require "vendor/autoload.php";
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 
+$mail->SMTPDebug = SMTP::DEBUG_SERVER;
+
 $mail->isSMTP();
 $mail->SMTPAuth = true;
 
