@@ -32,6 +32,15 @@
         <!-- Radac CSS -->
     <link rel="stylesheet" href="assets/css/style_radac.css">
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C72K7LG02M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C72K7LG02M');
+</script>
 
 <body>
 
@@ -323,7 +332,7 @@
 
 
     <!-- Start Feedback Area -->
-    <section id="feedback" class="feedback-area feedback-2 ptb-120">
+    <!-- <section id="feedback" class="feedback-area feedback-2 ptb-120">
    
         <div class="container">
             <h1 class="text-white mb-20">Testimoniales</h1>
@@ -342,15 +351,15 @@
                 </div> <!-- Slider Item-->
                 <!-- <div class="slider-item text-center">
                     <div class="slider-item-inner">
-                        <div class="content">
-                            <p class="text">
+                        <div class="content"> -->
+                            <!-- <p class="text">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et orci dictum, lacinia justo a, varius ante. Nunc dignissim lacus in massa fringilla ullamcorper. Vestibulum placerat, quam venenatis iaculis interdum, mi tortor consectetur augue, at sagittis velit leo ut metus.
                             </p>
                             <h5 class="name">Nombre</h5>
                             <span class="designation">Persona</span>
                         </div>
                     </div>
-                </div> <!-- Slider Item-->
+                </div> Slider Item -->
                 <!-- <div class="slider-item text-center">
                     <div class="slider-item-inner">
                         <div class="content">
@@ -363,12 +372,12 @@
                     </div>
                 </div> Slider Item -->
             <!-- </div> --> -->
-        </div>
-    </section>
+        <!-- </div> -->
+    <!-- </section> -->
     <!-- End Feedback Area -->
 
     <!-- Start Faq Area -->
-    <section id="faq" class="faq-area faq-4 pt-120 pb-90">
+    <section id="faq" class="faq-area faq-4 pt-120 pb-90" style="background:#2973b5">
         <div class="container">
             <div class="row align-items-center gx-xl-5">
                 <div class="col-lg-6">
@@ -500,7 +509,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-6 mb-30">
-                    <form id="contactForm">
+                    <form id="contactForm" action="send-email.php" method="post">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group mb-30">
