@@ -7,7 +7,7 @@ $message= $_POST['message'];
 // $to = "ventas@radac.com.mx";
 $to = "robertocapi36@gmail.com";
 // $subject = "Contacto del sitio web";
-$subject = "Contacto del sitio web '$nombre'";
+$subject = "Contacto del sitio web .$nombre.";
 // $txt ="Nombre = ". $name . "\r\n  Email = " . $email . "\r\n Mensaje =" . $message;
 $txt ="Nombre = ". $name . "\r\n  Email = " . $email ."\r\nTelefono = " . $phone . "\r\n Mensaje =" . $message;
 $headers = "From: noreply@radac.com.mx" . "\r\n" .
